@@ -92,7 +92,7 @@ def main() -> None:
         model=model_g,
         args=dummy_input,
         f=str(args.output),
-        verbose=False,
+        verbose=True,
         opset_version=OPSET_VERSION,
         input_names=["input", "input_lengths", "scales", "sid"],
         output_names=["output"],
